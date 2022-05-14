@@ -173,6 +173,9 @@ jasmineRequire.HtmlReporter = function (j$) {
       var order = doneResult && doneResult.order;
 
       labName.appendChild(
+        createDom("img", { src: "jasmine/jasmine-2.8.0/face4d.png" }, "")
+      );
+      labName.appendChild(
         createDom("span", {}, "DAY 2 | Lab - 2 | Functions & Arrays")
       );
       alert.appendChild(
